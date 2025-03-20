@@ -1,4 +1,4 @@
-package com.handson;
+package com.handson.practice;
 
 import java.util.Arrays;
 
