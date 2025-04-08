@@ -3,7 +3,6 @@ package com.handson.practice;
 public class A0804BinarySearch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = { -12, -4, 0, 2, 5, 13, 19, 26, 66, 87 };
 		int target = 0;
 		int ans = binarySearch(arr, target);
