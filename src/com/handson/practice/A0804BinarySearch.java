@@ -12,7 +12,7 @@ public class A0804BinarySearch {
 
 	// return the index
 	// return -1 if it does not exist
-	// Assumption:array is sorted in ascending order
+	// Assumption:array is sorted in ascending order for below scenario
 	public static int binarySearch(int[] arr, int target) {
 		int start = 0;
 		int end = arr.length - 1;
