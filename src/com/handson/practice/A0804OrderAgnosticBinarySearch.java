@@ -3,9 +3,9 @@ package com.handson.practice;
 public class A0804OrderAgnosticBinarySearch {
 
 	public static void main(String[] args) {
-		int[] arr1 = { -12, -4, 0, 2, 5, 13, 19, 26, 66, 87 };// 6
-		int[] arr2 = { -88, 75, 41, 22, 19, 9, 2, -10, -19 };// 4
-		int target = 19;
+		int[] arr1 = { -12, -4, 0, 2, 5, 13, 16, 26, 66, 87 };// 6
+		int[] arr2 = { -88, 75, 41, 22, 16, 9, 2, -10, -19 };// 4
+		int target = 16;
 		System.out.println(orderAgnosticBinarySearch(arr1, target));
 		System.out.println(orderAgnosticBinarySearch(arr2, target));
 
