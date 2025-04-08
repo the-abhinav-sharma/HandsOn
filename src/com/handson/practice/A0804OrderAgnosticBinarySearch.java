@@ -21,8 +21,6 @@ public class A0804OrderAgnosticBinarySearch {
 		boolean isAsc = arr[start] < arr[end];
 
 		while (start <= end) {
-			// find the middle element
-			// int mid = (start+end)/2; //to prevent size overrun of int
 			int mid = start + (end - start) / 2;
 
 			if (arr[mid] == target) {
